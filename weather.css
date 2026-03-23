@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+body {
+  background: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* FIXED */
+}
+
+/* CARD */
+.card{
+    width: 90%;
+    max-width: 420px;
+    background: linear-gradient(135deg,#00feba,#5b548a);
+    color: #fff;
+    border-radius: 20px;
+    padding: 25px;
+    text-align: center;
+}
+
+/* SEARCH */
+.research{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.research input{
+    border: none;
+    outline: none;
+    background:#ebfffc;
+    color: #555;
+    padding: 10px 15px;
+    height: 50px;
+    border-radius: 25px;
+    flex: 1;
+    font-size: 16px;
+}
+
+.research button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50%;
+    background: #ebfffc;
+    width: 50px;
+    height: 50px;
+}
+
+.research button img{
+    width: 20px;   
+}
+
+/* WEATHER */
+.weather-icon{
+    width: 100px;
+    margin-top: 20px;
+}
+
+.weather h1{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.weather h2{
+    font-size: 24px;
+    font-weight:400;
+}
+
+/* DETAILS */
+.details{
+    display: flex;
+    align-items: center; /* FIXED */
+    justify-content: space-between;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.col img{
+    width: 30px;
+}
+
+.humidity, .wind{
+    font-size: 18px;
+}
+
+/* STATES */
+.weather{
+    display: none;
+}
+
+.error{
+    text-align: left;
+    margin-top:10px ;
+    font-size: 14px;
+    margin-left: 10px;
+    display: none;
+}
+
+
+@media (max-width: 480px) {
+
+    .card {
+        padding: 20px;
+    }
+
+    .weather h1 {
+        font-size: 32px;
+    }
+
+    .weather h2 {
+        font-size: 20px;
+    }
+
+    .weather-icon {
+        width: 80px;
+    }
+
+    .details {
+        flex-direction: column;
+        align-items: center;
+    }
+}
