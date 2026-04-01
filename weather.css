@@ -1,4 +1,4 @@
-*{
+/* /* *{
     margin: 0;
     padding: 0;
 
@@ -12,10 +12,10 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh; /* FIXED */
-}
+/* }
+ */ */
 
-/* CARD */
-.card{
+/* .card{
     width: 90%;
     max-width: 420px;
     background: linear-gradient(135deg,#00feba,#5b548a);
@@ -25,8 +25,7 @@ body {
     text-align: center;
 }
 
-/* SEARCH */
-=======
+.research{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     box-sizing: border-box;
 }
@@ -49,12 +48,12 @@ body{
     height: 20px;
 }
 
->>>>>>> ce36bc647872b0da028c05f966ed591e3333ef16
+
 .research{
     width: 100%;
     display: flex;
     align-items: center;
-<<<<<<< HEAD
+
     gap: 10px;
 }
 
@@ -81,11 +80,11 @@ body{
 }
 
 .research button img{
-    width: 20px;   
-}
+    width: 20px;    */
+/* } */
 
 /* WEATHER */
-.weather-icon{
+/* .weather-icon{
     width: 100px;
     margin-top: 20px;
 }
@@ -98,22 +97,22 @@ body{
 .weather h2{
     font-size: 24px;
     font-weight:400;
-}
+} */
 
 /* DETAILS */
-.details{
+/* .details{
     display: flex;
-    align-items: center; /* FIXED */
+    align-items: center; 
     justify-content: space-between;
     margin-top: 30px;
     flex-wrap: wrap;
     gap: 15px;
-=======
+
     justify-content: center;
 }
 .research input{
-    border: 0;
-    outline: 0;
+    border: 0; */
+    /* outline: 0;
     background:#ebfffc;
     color: #555;
     padding: 10px 25px;
@@ -133,8 +132,8 @@ body{
     background: #ebfffc;
     width: 60px;
     height: 60px;
-    
-}
+     */
+/* }
 .weather-icon{
     width: 170px;
     margin-top: 30px;
@@ -151,19 +150,19 @@ body{
 }
 
 .details{
-    display: flex;
-    align-items: centre;
+    display: flex; */
+    /* align-items: centre;
     margin-top: 50px;
     justify-content: space-between;
     padding: 0 20px;
 
->>>>>>> ce36bc647872b0da028c05f966ed591e3333ef16
+
 }
 
 .col{
     display: flex;
     align-items: center;
-<<<<<<< HEAD
+
     gap: 10px;
 }
 
@@ -173,39 +172,36 @@ body{
 
 .humidity, .wind{
     font-size: 18px;
-}
+} */
 
 /* STATES */
-=======
-    text-align: left;
-
-}
+/* 
 .col img{
     width: 40px;
     margin-right: 10px;
 }
 
 .humidity, .wind{
-    font-size: 28px;
-    margin-top: -6px;
+    font-size: 28px; */
+    /* margin-top: -6px;
 }
 
->>>>>>> ce36bc647872b0da028c05f966ed591e3333ef16
+
 .weather{
     display: none;
 }
 
 .error{
     text-align: left;
-<<<<<<< HEAD
+
     margin-top:10px ;
     font-size: 14px;
     margin-left: 10px;
     display: none;
 }
+ */
 
-
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
 
     .card {
         padding: 20px;
@@ -228,12 +224,500 @@ body{
         align-items: center;
     }
 }
-=======
-margin-top:10px ;
-font-size: 14px;
-margin-left: 10px;
-display: none;
+
+
+ */ */
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: #1e1e1e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* CARD */
+/* .card {
+    width: 320px;
+    background: linear-gradient(180deg, #f6b68e, #f3a07c);
+    border-radius: 25px;
+    padding: 25px;
+    color: white;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+} */
+
+/* SEARCH */
+/* .research {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.research input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+
+.research button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; */
+    /* overflow: hidden; /* IMPORTANT */
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+} */ */
+
+/* .research button img {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+}.research button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; */
+    /* overflow: hidden;  */
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+
+/* WEATHER */
+/* .date {
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+.city {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.weather-icon {
+    width: 80px;
+    margin: 10px 0;
+}
+
+.temp {
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.wind {
+    font-size: 14px;
+    opacity: 0.8;
+} */
+
+/* FORECAST ICONS */
+/* .forecast {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    font-size: 20px;
+} */
+
+/* ERROR */
+/* .error {
+    display: none;
+    font-size: 14px;
+    margin-top: 10px;
+} */
+
+/* SHOW WEATHER */
+/* .weather {
+    display: none;
+} */ 
+ /* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+body{
+    background: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+} */
+
+/* CARD */
+/* .card{
+    width: 90%;
+    max-width: 420px;
+    background: linear-gradient(135deg,#00feba,#5b548a);
+    color: #fff;
+    border-radius: 20px;
+    padding: 25px;
+    text-align: center;
+} */
+
+/* SEARCH */
+/* .research{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+} */
+
+/* .research input{
+    border: none;
+    outline: none;
+    background:#ebfffc;
+    color: #555;
+    padding: 10px 15px;
+    height: 50px;
+    border-radius: 25px;
+    flex: 1;
+    font-size: 16px;
+}
+
+.research button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50%;
+    background: #ebfffc;
+    width: 50px;
+    height: 50px;
+    font-size: 18px; */
+/* } */
+
+/* WEATHER */
+/* .weather-icon{
+    width: 100px;
+    margin-top: 20px;
+}
+
+.weather h1{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.weather h2{
+    font-size: 24px;
+    font-weight:400;
+}
+
+/* DETAILS */
+/* .details{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 0 10px;
+}
+
+.col{ */ */
+    /* display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.col img{
+    width: 30px;
+}
+
+.humidity, .wind{
+    font-size: 18px;
+} */
+
+/* STATES */
+/* .weather{
+    display: none;
+}
+
+.error{
+    text-align: left;
+    margin-top:10px ;
+    font-size: 14px;
+    margin-left: 10px;
+    display: none;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: url("background.jpeg") no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    transition: background 0.5s ease;
+}
+/* CARD */
+.card {
+    
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(20px);
+    border-radius: 25px;
+    width: 420px;
+    padding: 40px;
+    color: white;
+    text-align: center;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+    border: 1px solid rgba(255,255,255,0.1);
+    transition: 0.3s;
+    
+}
+
+/* SEARCH */
+.research {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.research input {
+    flex: 1;
+    padding: 12px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    background: rgba(255,255,255,0.2);
+    color: white;
+}
+
+.research input::placeholder {
+    color: #ddd;
+}
+
+.research button {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: none;
+    background: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* WEATHER */
+.weather-icon {
+    width: 100px;
+    height: auto;
+    margin: 15px auto;
+    display: block;
+}
+
+/* .temp {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.city {
+    font-size: 20px;
+    margin-bottom: 10px;
+    opacity: 0.9;
+} */
+
+/* DETAILS */
+.details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.col img {
+    width: 30px;
+}
+
+.temp {
+    font-size: 70px;
+}
+
+.city {
+    font-size: 28px;
+    
+    margin-bottom: 10px;
+}
+
+
+
+
+
+/* ANIMATION 🔥 */
+.card:hover {
+    
+    transition: 0.3s;
+    transform: scale(1.05);
+}
+.clock {
+    padding: 12px;
+    width: 120px;
+    margin: 10px auto;
+
+    border-radius: 15px;
+
+    background: rgba(255,255,255,0.1);
+
+    font-size: 18px;
+    font-weight: 600;
+    animation: pulse 2s infinite;
 
 
 }
->>>>>>> ce36bc647872b0da028c05f966ed591e3333ef16
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+@keyframes fade {
+    from { opacity: 0.6; }
+    to { opacity: 1; }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+body {
+    margin: 0;
+    height: 100vh;
+    background: url("_\ \(43\).jpeg") no-repeat center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    animation: gradient 10s infinite alternate;
+}
+
+/* GLASS CARD */
+.card {
+    width: 400px;
+    padding: 30px;
+    border-radius: 20px;
+    color: white;
+
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255,255,255,0.2);
+
+    text-align: center;
+}
+
+/* TOP */
+.top {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+/* TEMP */
+.temp {
+    font-size: 80px;
+    margin: 20px 0;
+    font-weight: 600;
+}
+
+/* ICON */
+
+
+/* CONDITION */
+.condition {
+        margin-top: 5px;
+    font-size: 18px;
+    opacity: 0.8;
+
+}
+
+/* BOTTOM */
+
+
+.bottom {
+    
+    justify-content: center;   /* 🔥 center the whole block */
+    gap: 40px;                 /* space between humidity & wind */
+    margin-top: 30px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.bottom div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   /* 🔥 center content inside each box */
+    justify-content: center;
+    text-align: center;
+}
+
+
+/* VALUE (79%, 7 km/hr) */
+.humidity, .wind {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+/* LABEL (Humidity, Wind) */
+.bottom span {
+    font-size: 14px;
+    opacity: 0.7;
+}
+.weather {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   /* 🔥 THIS centers horizontally */
+    justify-content: center;
+    text-align: center;
+     animation: fadeIn 0.6s ease-in-out;
+}
+
+.error {
+    display: none;
+    
+    color: #ff6b6b;
+    margin-top: 10px;
+}
+
+@media (max-width: 500px) {
+    .card {
+        width: 90%;
+        padding: 20px;
+    }
+}
+
+
+.day {
+    background: linear-gradient(to top, #6dd5fa, #2980b9);
+}
+
+/* NIGHT MODE */
+.night {
+    background: linear-gradient(to top, #0f2027, #203a43, #2c5364);
+}
+
+
+
