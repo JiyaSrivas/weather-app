@@ -245,9 +245,7 @@ async function checkWeather(city) {
     document.querySelector(".condition").innerHTML = data.weather[0].main;
 
 
-    let timezoneOffset = data.timezone;
-
-    
+    let timezoneOffset = data.timezone; 
 
 // clear previous interval (important)
 if (window.clockInterval) {
